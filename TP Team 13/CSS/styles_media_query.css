@@ -1,0 +1,63 @@
+/* Extra small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+
+   .animate__rubberBand {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .catalogo {
+        background-color:  #323278;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around
+           }
+    .producto {
+        background-color:  #7b9a7f;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around
+    }
+
+}
+
+/* Small devices (600px to 768px) */
+@media  only screen and (min-width: 600px) and (max-width: 768px) {
+   
+
+    .container {
+        
+        background-color: black;
+        display: flex;
+        flex-direction: column wrap;
+        justify-content: space-around;
+    }
+    .catalogo {
+        background-color: #f4eede;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around
+       
+    }
+           }
+   
+
+/* Medium devices (768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+
+    .animate__rubberBand {
+        background-color:
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
